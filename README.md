@@ -14,7 +14,7 @@
 
 任务四：选做文档中JDK8中存在的函数式接口
  * Consumer接口：（完成者：田震）
- * ActionEvent接口：（完成者：郑亮）
+ * ActionListener接口：（完成者：郑亮）
  
 _此任务，具体内容详情见包four_
 
