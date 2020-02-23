@@ -8,15 +8,10 @@ package com.soft1851.seven.homework.three;
  **/
 public class BlessingServiceTest {
     public static void main(String[] args) {
-        BlessingServe blessingServe= new BlessingServe() {
-            @Override
-            public void sayBlesstoWuHan(String name, String bless) {
-                System.out.println(name+":");
-                System.out.println(bless);
-
-            }
+        BlessingServe blessingServe= bless -> {
+            System.out.println(bless);
         };
-        blessingServe.sayBlesstoWuHan("田震","祝福武汉，祝福中国，祝福全世界，2020特殊的一年，" +
+        blessingServe.sayBlesstoWuHan("祝福武汉，祝福中国，祝福全世界，2020特殊的一年，" +
                 "2020众志成城，愿往后的日子，一切都向着好的方向前行！");
     }
 }
