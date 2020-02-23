@@ -8,5 +8,5 @@ package com.soft1851.seven.homework.three;
  **/
 @FunctionalInterface
 public interface BlessingServe {
-    void  sayBlesstoWuHan(String name,String bless);
+    void  sayBlesstoWuHan(String bless);
 }
