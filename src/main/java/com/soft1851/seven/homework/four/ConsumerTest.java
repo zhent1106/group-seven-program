@@ -11,6 +11,7 @@ public class ConsumerTest {
         ConsumerTest consumerTest = new ConsumerTest();
         consumerTest.text("第七小组", item -> System.out.println(item+"最棒！" ),
                 item -> System.out.println(item+"的长度是："+item.length()));
+        System.out.println("测试");
     }
 
     /**
